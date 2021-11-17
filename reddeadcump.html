@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style>
+.containerul {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 150px;
+}
+
+.overlayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.containerul:hover .overlayer {
+  opacity: 1;
+}
+
+.textul {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<title>Ruli Games</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body style="background-color:#03224C">
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Ruli Games</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Magazin</a></li>
+					<li><a href="contacte.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+</div>
+	<div id="featured-content">
+	<form action="comanda.php" method="POST">
+	<ul>
+	<br>
+     <li>Nume:<input type="text" name="nume" value=""><br><br><br></li>
+     <li>Prenume:<input type="text" name="prenume" value=""><br><br><br></li>
+     <li>Județ:<input type="text" name="judet" value=""><br><br><br></li>
+     <li>Localitate:<input type="text" name="localitate" value=""><br><br><br></li>
+     <li>Adresă:<input type="text" name="adresa" value=""><br><br><br></li>
+     <li>Număr de telefon:<input type="text" name="nrtel" value=""><br><br><br></li>
+     <li>Denumire produs:<input type="text" name="numeprod" value="Red Dead Redemption II"><br><br><br></li>
+     <li>Preț:<input type="number" step="any" name="pret" value="310"> RON<br><br><br></li>
+     <br>
+     <input type="submit" value="Plasează comanda!"> 
+     <br><br><br>
+	</ul>
+	</form>
+	</div>
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<div id=>
+	<!-- end #page --> 
+	
+<div id="footer">
+	<p>Mulțumim că ați ales Ruli Games, vă mai așteptăm!</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
